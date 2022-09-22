@@ -1,6 +1,6 @@
 var title = document.createElement("div")
 title.className = "vaportitle"
-title.innerText = "Vapor"
+title.innerText = "OL:OF"
 appid.appendChild(title)
 
 var items = document.createElement("center")
@@ -8,13 +8,13 @@ var items = document.createElement("center")
 var tab = document.createElement("button")
 tab.className = "vaportab"
 tab.innerText = "Tab Cloak"
-tab.setAttribute("onclick", 'new Nightmare({"title": "Tab Cloak","type": "js","js": "https://cdn.jsdelivr.net/gh/FogNetwork/Vapor/tab.min.js","width": 400,"height": 300,"theme": "dark"})')
+tab.setAttribute("onclick", 'new Nightmare({"title": "Cloak","type": "js","js": "https://cdn.jsdelivr.net/gh/FogNetwork/Vapor/tab.min.js","width": 400,"height": 300,"theme": "dark"})')
 items.appendChild(tab)
 
 var inspect = document.createElement("button")
 inspect.className = "vaportab"
-inspect.innerText = "Avo"
-inspect.setAttribute("onclick", "javascript:(function () {var a = document.createElement('script');a.src = 'https://cdn.jsdelivr.net/gh/FogNetwork/Avo/avo.min.js';document.body.appendChild(a);}())")
+inspect.innerText = "Inspect"
+inspect.setAttribute("onclick", "(function()%7B(function() %7Bvar x %3D document.createElement("script")%3Bx.src %3D "https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FSnowLord7%2Fdevconsole%40master%2Fmain.js"%3Bx.onload %3D alert("Loaded Developer Console!")%3Bdocument.head.appendChild(x)%3B%7D)()%7D)()")
 items.appendChild(inspect)
 
 appid.appendChild(items)

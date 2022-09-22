@@ -1,7 +1,7 @@
 var vaporwindow = `new Nightmare({
 "title": "Vapor",
 "type": "js",
-"js": "https://cdn.jsdelivr.net/gh/FogNetwork/Vapor/app.min.js",
+"js": "https://cdn.jsdelivr.net/gh/sunflower4166/Vapor@main/app.js",
 "width": 800,
 "height": 600,
 "theme": "dark"
